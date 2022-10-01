@@ -1,0 +1,6 @@
+{
+  "host": "localhost",
+  "database": "passwordstoredb",
+  "port": "5432",
+  "password": "root"
+}
