@@ -52,6 +52,9 @@ public class HTTPServer {
     }
 
     boolean health(){
+        if(serverAliveSince != null){
+            return true;
+        }
         return false;
     }
 }
