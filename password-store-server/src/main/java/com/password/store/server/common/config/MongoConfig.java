@@ -1,4 +1,4 @@
-package com.password.store.server.common.pojo;
+package com.password.store.server.common.config;
 
 /**
  * @author Pratyay Ganguli

@@ -5,7 +5,6 @@ import javax.sql.RowSet;
 /**
  * @author Pratyay Ganguli
  */
-
 public interface PostgresDBClient {
     Integer store();
     RowSet read();
