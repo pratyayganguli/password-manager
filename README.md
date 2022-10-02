@@ -1,5 +1,5 @@
 
-![Password Store](password-store-server/files/password-store.png?raw=true "Password Store Server")
+![Password Store](password-store-server/files/password-store-wide.png?raw=true "Password Store Server")
 
 #### Requirement List ####
 
