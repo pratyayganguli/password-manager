@@ -5,4 +5,5 @@ package com.password.store.server.common.config;
  */
 
 public class MongoConfig {
+
 }
