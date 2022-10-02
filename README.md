@@ -1,5 +1,5 @@
 
-![Password Store](password-store-server/files/password-store-wide.png?raw=true "Password Store Server")
+![Password Store](password-store-server/files/password-store-final.png?raw=true "Password Store Server")
 
 #### Requirement List ####
 
@@ -16,17 +16,17 @@ __APIs__
 Get API key :
 
 ```
-    https://pg.ossprojects.com/password-manager/authorize
+    https://pg-ossprojects.com/password-manager/authorize
 ```
 
 Store Password:
 
 ```
-    https://pg.ossprojects.com/password-manager/store
+    https://pg-ossprojects.com/password-manager/store
 ```
 
 Retrieve Password:
 
 ```
-    https://pg.ossprojects.com/password-manager/retrieve
+    https://pg-ossprojects.com/password-manager/retrieve
 ```
