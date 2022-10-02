@@ -1,9 +1,8 @@
 package com.password.store.server.common.utils;
 
+import com.password.store.server.common.pojo.Messages;
 import com.password.store.server.common.pojo.Response;
-
 import java.io.FileReader;
-import java.io.IOException;
 
 /**
  * @author Pratyay Ganguli
@@ -11,7 +10,7 @@ import java.io.IOException;
 
 public class SystemFileReaderImpl implements SystemFileReader {
     @Override
-    public Response<Boolean> readJSON(String pathToFile) {
+    public Response<Boolean> readFile(String pathToFile) {
         String content = "";
         int count = 0;
         try{
@@ -26,10 +25,13 @@ public class SystemFileReaderImpl implements SystemFileReader {
                 content = new String(charArray);
             }
         }
-        catch (IOException exception){
-            return new Response("File not found", false);
+        catch (Exception exception){
+            return new Response(
+                    new ExceptionHandler().getMessage(exception),
+                    false
+            );
         }
-        return  new Response("File retrieved", content);
+        return new Response(Messages.SUCCESS_MESSAGE, content);
     }
 
     @Override

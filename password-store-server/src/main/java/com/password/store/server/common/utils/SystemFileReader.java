@@ -7,7 +7,6 @@ import com.password.store.server.common.pojo.Response;
  */
 
 public interface SystemFileReader {
-    Response readJSON(String pathToFile);
-    Response readXML(String pathToFile);
-    Response readYAML(String pathToFile);
+    Response readFile(String pathToFile);
+
 }

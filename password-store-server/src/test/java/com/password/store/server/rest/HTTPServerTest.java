@@ -17,12 +17,10 @@ public class HTTPServerTest {
     void startServer(){
         server.start();
     }
-
     @Test
     void health(){
 
     }
-
     @Test
     void stopServer(){
 
