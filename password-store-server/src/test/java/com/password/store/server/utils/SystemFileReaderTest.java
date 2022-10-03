@@ -23,11 +23,4 @@ public class SystemFileReaderTest {
         Assertions.assertEquals("Hello", response.getType());
     }
 
-    @Test
-    public void testParse(){
-        Response response = systemFileReader.readFile(
-                "C:\\personal\\password-manager\\password-manager\\password-store-server\\src\\test\\java\\com\\password\\store\\server\\utils\\snigdha.txt"
-        );
-        System.out.println(systemFileReader.parseJSON(response));
-    }
 }
