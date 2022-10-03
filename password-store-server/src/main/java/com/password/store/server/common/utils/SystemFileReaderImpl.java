@@ -34,13 +34,4 @@ public class SystemFileReaderImpl implements SystemFileReader {
         return new Response(Messages.SUCCESS_MESSAGE, content);
     }
 
-    @Override
-    public Response readXML(String pathToFile) {
-        return null;
-    }
-
-    @Override
-    public Response readYAML(String pathToFile) {
-        return null;
-    }
 }
